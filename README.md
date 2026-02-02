@@ -1,10 +1,12 @@
 # IoT-Basic-Programming-2026
 IoT 개발자 과정 - 기초 프로그래밍 언어 학습 repository
 
+
 ## 1일차
 - Git, GitHub Desktop 설치
 - Visual Studio Code 설치
 - README 미리보기 단축키 => Ctrl + Shift + V
+
 
 ### C언어 학습 순서
 - 기본
@@ -26,14 +28,17 @@ IoT 개발자 과정 - 기초 프로그래밍 언어 학습 repository
     8. 파일 입출력
     9. 전처리와 분할 컴파일
 
+
 ### 프로그램 개요
-- 프로그램 : 사용자의 요구에 따라 데이터를 처리(표현, 이동, 저장, 로드 등)를 할 수 있는 소프트웨어
-- 프로그램을 만드는 작업 : 프로그래밍(코딩, SW개발 등)
+- 프로그램 : `사용자의 요구`에 따라 `데이터`를 `처리`(표현, 이동, 저장, 로드 등)를 할 수 있는 `소프트웨어`
+- 프로그램을 만드는 작업 : 프로그래밍(코딩, SW개발, 소프트 엔지니어 등)
+
 
 ### C 언어
 - 1972년 켄 톰슨과 데니스 리치가 UNIX 운영체제 개발을 위해서 만든 언어
 - C++, Java, C#, Python 등 모든 언어의 베이스가 되는 언어
 - C99 표준에 따라서 학습
+
 
 ### 컴파일과 컴파일러
 - 컴파일
@@ -44,6 +49,7 @@ IoT 개발자 과정 - 기초 프로그래밍 언어 학습 repository
     - IDE(Integrity Development Enviroment - 통합 개발 도구)를 사용
     - `Visual Studio`, Visual Studio Code, Rider, Eclipse
 
+
 ### Visual Studio Community 설치
 - https://visualstudio.microsoft.com/ko/ 경로 이동 후 무료 다운로드 받기 클릭
     1. Visual Studio Installer 실행
@@ -52,6 +58,50 @@ IoT 개발자 과정 - 기초 프로그래밍 언어 학습 repository
     2. 설치 중
         ![alt text](image-1.png)
 
-    3. 
+
+### Visual Studio 프로젝트 생성
+1. 새 프로젝트 생성
+    ![alt text](image-2.png)
+
+2. 새 프로젝트 구성
+    - 솔루션 이름, 프로젝트 이름을 다르게 지정
+    - 위치는 GitHub 저장소 하위에 위치
+    ![alt text](image-3.png)
+
+3. 새 프로젝트 추가
+    - 기존 솔루션에 새 프로젝트 추가
+    ![alt text](image-4.png)
+
+4. 소스코드 확장자를 변경
+    - *.cpp --> *.c 로 변경
+
+5. Chapter01_01_app.c, Chapter01_02_app.c 코딩
+
+6. 메뉴 디버기 > 디버그 하지 않고 시작 (Ctrl+F5) 진행
+
+7. 전체 컴파일 과정
+    ![alt text](image-5.png)
+
+8. 프로젝트가 여러개일때
+    - 솔루션 속성 > 시작 프로젝트 구성 > `현재 선택 영역`으로 선택
+
+### C 기본 문법
+1. 기본 사용법
+    - 메인함수 작성법 : [확인](./DAY01/Chapter02_Solution/Chapter02_01_app/main.c)
+
+    - 데이터 출력방법 : [확인](./DAY01/Chapter02_Solution/Chapter02_02_app/main.c)
+
+    - 진법 사용방법 :
+        - 2진수 => 컴퓨터의 데이터가 모두 0 ro 1 로만 저장되어 있으므로 사용
+        - 8진수 => Bit로 데이터를 처리할 때 Bit 단위가 8이므로 사용
+        - 16진수 => 255까지의 수를 짧게 표현하고자 사용
+        - 10진수 => 사람이 흔히 사용
+
+    - 진수별 표현법(10, 8, 16) : [확인](./DAY01/Chapter02_Solution/Chapter02_03_app/main.c)
+        |10진수|0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|
+        |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+        |8진수|0|1|2|3|4|5|6|7|10|11|12|13|14|15|16|17|
+        |16진수|0x0|0x1|0x2|0x3|0x4|0x5|0x6|0x7|0x8|0x9|0xA|0xB|0xC|0xD|0xE|0xF|
+        
 
 
