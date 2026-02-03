@@ -114,4 +114,18 @@ IoT 개발자 과정 - 기초 프로그래밍 언어 학습 repository
     - 실수형 및 변수 : [확인](./DAY02/Chapter03_Solution/Chapter03_02_app/main.c)
     - 데이터 입력 : [확인](./DAY02/Chapter03_Solution/Chapter03_03_app/main.c)
 
-    - 연산자
+    - 연산자 : [확인](./DAY02/Chapter04_Solution/Chapter04_01_app/main.c)
+
+2. 문제 풀이
+    - 1번 문제 : [확인](./DAY02/Chapter04_Solution/Chapter04_quiz_01/quiz01.c)
+    - 2번 문제 : [확인](./DAY02/Chapter04_Solution/Chapter04_quiz_01/quiz02.c)
+    - 4번 문제 : [확인](./DAY02/Chapter04_Solution/Chapter04_quiz_01/quiz04.c)
+
+
+## 3일차
+
+### C 기본 문법3
+
+1. 제어문
+
+    

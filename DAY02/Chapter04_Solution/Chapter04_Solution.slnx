@@ -4,4 +4,7 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="Chapter04_01_app/Chapter04_01_app.vcxproj" />
+  <Project Path="Chapter04_quiz_01/Chapter04_quiz_01.vcxproj" />
+  <Project Path="Chapter04_quiz_02/Chapter04_quiz_02.vcxproj" />
+  <Project Path="Chapter04_quiz_04/Chapter04_quiz_04.vcxproj" />
 </Solution>
