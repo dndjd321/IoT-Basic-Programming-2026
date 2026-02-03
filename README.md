@@ -108,4 +108,10 @@ IoT 개발자 과정 - 기초 프로그래밍 언어 학습 repository
 ## 2일차
 
 ### C 기본 문법2
-    - 
+
+1. 기본 문법
+    - 데이터 타입 : [확인](./DAY02/Chapter03_Solution/Chapter03_01_app/main.c)
+    - 실수형 및 변수 : [확인](./DAY02/Chapter03_Solution/Chapter03_02_app/main.c)
+    - 데이터 입력 : [확인](./DAY02/Chapter03_Solution/Chapter03_03_app/main.c)
+
+    - 연산자
