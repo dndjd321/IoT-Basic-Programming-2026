@@ -1,21 +1,20 @@
-// Chapter05_02_app/main.c
-// switch ~ case ¹®
+ï»¿// Chapter05_02_app/main.c
+// switch ~ case êµ¬ë¬¸
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main() {
 	
-	int rank = 0, money = 0;	// º¯¼ö ¼±¾ğ ¹× ÃÊ±âÈ­
+	int rank = 0, money = 0;	// ë­í¬, ë‹¹ì²¨ê¸ˆ
 
-	printf("µî¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+	printf("ìˆœìœ„ë¥¼ ì…ë ¥í•˜ì„¸ìš” :  ");
 	scanf("%d", &rank);
 	
 	//switch (rank) {
 	//	case 1:
 	//		money = 1000;
-	//		break;	// break ¹®À» ¸¸³ª¸é switch ¹®À» ºüÁ®³ª°¨.
-	//				// break ¹®ÀÌ ¾øÀ¸¸é ´ÙÀ½ case ¹®À¸·Î °è¼Ó ÁøÇàµÊ.
+	//		break;	// break ë¬¸ì€ í•„ìˆ˜
 	//	case 2:
 	//		money = 500;
 	//		break;
@@ -36,7 +35,7 @@ int main() {
 	else if (rank == 4) money = 50;
 	else money = 10;
 
-	printf("%dµî ´çÃ·±İÀº %d¸¸¿ø ÀÔ´Ï´Ù.\n", rank, money);
+	printf("%d ë“± ë‹¹ì²¨ê¸ˆì€ %d ë§Œì› ì…ë‹ˆë‹¤.\n", rank, money);
 
 	return 0;
 }

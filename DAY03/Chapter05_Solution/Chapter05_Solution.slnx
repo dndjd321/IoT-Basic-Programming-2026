@@ -6,4 +6,9 @@
   <Project Path="Chapter05_01_app/Chapter05_01_app.vcxproj" Id="97dd1616-1625-4fb1-836d-4e474c77c57d" />
   <Project Path="Chapter05_02_app/Chapter05_02_app.vcxproj" Id="02b8cbe9-9cce-430a-a65a-7b09a6c21628" />
   <Project Path="Chapter05_03_app/Chapter05_03_app.vcxproj" Id="273fef81-1605-41cc-a056-151a8d835e50" />
+  <Project Path="Chapter05_04_app/Chapter05_04_app.vcxproj" Id="8b4011da-2f8c-434f-a2be-088ad4aebd93" />
+  <Project Path="Chapter05_05_app/Chapter05_05_app.vcxproj" Id="cc86c8cb-7bc9-4991-aa4e-bdd77fa36340" />
+  <Project Path="Chapter05_06_app/Chapter05_06_app.vcxproj" Id="9c9991da-6735-4d33-ac32-2268fac4f355" />
+  <Project Path="Chapter05_07_app/Chapter05_07_app.vcxproj" Id="21982d22-2cc9-4b9d-aa2f-3e511fb53502" />
+  <Project Path="Chapter05_quiz03/Chapter05_quiz03.vcxproj" Id="f775d431-b037-4de0-abe8-9f0044afd845" />
 </Solution>

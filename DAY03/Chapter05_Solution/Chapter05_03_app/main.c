@@ -23,7 +23,7 @@ int main() {
 
 	a = 0;
 	while (a >  0) {
-		printf("while 실행\n");
+		printf("while 실행\n");		// 출력 X
 		a--;
 	}
 
@@ -45,16 +45,10 @@ int main() {
 
 	a = 0;
 	do {
-		printf("do~while문 실행\n");
+		printf("do~while문 실행\n");	// 출력 O - 1회만
 		a--;
 	} while (a > 0);
 	printf("do~while문 종료\n");
-
-
-
-
-
-
 
 	return 0;
 }

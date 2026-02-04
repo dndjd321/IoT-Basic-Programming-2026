@@ -126,7 +126,34 @@ IoT 개발자 과정 - 기초 프로그래밍 언어 학습 repository
 
 ### C 기본 문법3
 
-1. 제어문 - 선택문 / 분기문
-    - if :
-    - switch-case :
+1. 제어문 - 선택문
+    - if : [확인](./DAY03/Chapter05_Solution/Chapter05_01_app/main.c)
+    - switch-case : [확인](./DAY03/Chapter05_Solution/Chapter05_02_app/main.c)
     
+2. 반복문 
+    - while, do ~ while : [확인](./DAY03/Chapter05_Solution/Chapter05_03_app/main.c)
+    - for : [확인](./DAY03/Chapter05_Solution/Chapter05_04_app/main.c)
+    - 구구단 : [확인](./DAY03/Chapter05_Solution/Chapter05_05_app/main.c)
+    - 무한루프 : [확인](./DAY03/Chapter05_Solution/Chapter05_06_app/main.c)
+    - continue, break : [확인](./DAY03/Chapter05_Solution/Chapter05_07_app/main.c)
+
+
+3. **`디버깅`** 
+    - 단축키
+        - F5 : Debugging 시작
+               Debug 중일때는 다음 Break Point까지 바로 진행.
+        - Shift + F5 : Debugging 종료
+        - F9 : `Break Point` Toggle 지정
+        - F10 : Debugging 중 Source Code 1줄 실행
+        - F11 : Source Code 내 `Function`이나 `Class`가 존재하면 내부로 진입
+        - 로컬, 조사식 창 활용
+
+4. 함수 
+    - 함수 기본 : [확인](./DAY03/Chapter07_Solution/Chapter07_01_app/main.c)
+
+
+## 4일차
+
+### C 기본 문법4
+1. 함수2
+    - 함수 유형
