@@ -156,4 +156,33 @@ IoT 개발자 과정 - 기초 프로그래밍 언어 학습 repository
 
 ### C 기본 문법4
 1. 함수2
-    - 함수 유형
+    - 함수 유형 : 
+        - 매개변수 없는 함수
+        - 반환값이 없는 함수
+        - 매개변수와 반환값이 없는 함수
+        - `매개변수, 반환값`이 있는 함수 - Chapter07_01_app
+    - 재귀호출 함수 : [확인](./DAY03/Chapter07_Solution/Chapter07_03_app/main.c)
+
+2. 배열
+    - 동일 자료형의 묶음 - `array[10]`
+    - 배열 선언, 초기화 : [확인](./DAY04/Chapter08_Solution/Chapter08_01_app/main.c)
+    - 문자배열(문자열) : [확인](./DAY04/Chapter08_Solution/Chapter08_03_app/main.c)
+    - 문자열 대소문자 변환 : [확인](./DAY04/Chapter08_Solution/Chapter08_Quiz_app/main.c)
+
+        ![alt text](image-6.png)
+    
+3. 포인터
+    - 변수에 담긴 데이터를 공유하기 위함.
+    - 프로그램에서 사용하는 메모리를 절약하기 위한 목적.
+    - 변수 스코프 : [확인](./DAY04/Chapter09_Solution/Chapter09_01_app/main.c)
+    - 메모리 주소
+        - 주소 연산자('&') : [확인](./DAY04/Chapter09_Solution/Chapter09_02_app/main.c)
+        - 간접 참조 연산자(포인터 연산자'*') : [확인](./DAY04/Chapter09_Solution/Chapter09_03_app/main.c)
+
+    
+## 5일차
+
+### C 기본 문법5
+
+1. 포인터 
+    - 포인터 이해
