@@ -356,7 +356,7 @@ IoT 개발자 과정 - 기초 프로그래밍 언어 학습 repository
         - 장점 : 경로를 짧게 표시 가능
         - 단점 : 개발자가 직접 경로가 어떻게 구성되어있는지 파악 필요.
 
-3. 파일 입출력 
+3. 파일 입출력 : [확인](./DAY09/Chapter18_Solution/Chapter18_02_app/main.c)
     - 키보드 등 입력은 버퍼를 통한 입력 스트림(stream)에, 출력은 출력 스트림에 보관되어 있음.
     - 파일, Console 등에 전달
     ![alt text](image-14.png)
@@ -372,7 +372,7 @@ IoT 개발자 과정 - 기초 프로그래밍 언어 학습 repository
     - stdio.h : stdin(표준 입력), stdout(표준 출력), stderr(표준 에러) 포함
     - 인코딩방식 : `EUC-KR`(CP-949, 멀티바이트, 2byte로 한글 표현), `UTF-8`(3byte로 한글 표현, 한 글자 최대 6byte)
 
-4. 파일 입출력 모드 - 바이너리, 텍스트
+4. 파일 입출력 모드 - 바이너리, 텍스트 : [확인](./DAY09/Chapter18_Solution/Chapter18_06_app/main.c)
     - r : 읽기(read) 모드
     - w : 쓰기(write) 모드
     - a : 추가(append) 모드
@@ -382,12 +382,43 @@ IoT 개발자 과정 - 기초 프로그래밍 언어 학습 repository
     - 위 단어를 조합하여 사용함. ex > "rb+", "r+" 등
     - 경로를 표시하는 문자열에서 폴더 구분을 기존 "\\"와 Unix, Linux, MacOS 공통의 구분 "/" 사용 가능
 
-5. 한글 깨짐 현상 
+5. 한글 깨짐 현상 : [확인](./DAY09/Chapter18_Solution/Chapter18_03_app/main.c)
     - EUC-KR 과 UTF-8 사이에서 변환문제로 발생함.
+    - 윈도우 설정 - intl.cpl 실행
+        - 국가 또는 지역 > 관리자 옵션 > 시스템 로캘 변경 > Beta : 세계 언어 지원을 위해 Unicode UTF-8 사용 체크 활성화 후 윈도우 재시작
+        ![alt text](image-15.png)
+
+6. 파일 핸들링 현상
+    - fopen() 이후 fclose() 이전 상황에서 탐색기 등에서 파일에 접근하면 파일 접근이 불가하여 열 수가 없음.
+    ![alt text](image-16.png)
+    - fseek() 함수 사용 시 : [확인](./DAY09/Chapter18_Solution/Chapter18_04_app/main.c)
+        - SEEK_SET : 파일의 최초 위치
+        - SEEK_CUR : 파일의 현재 위치
+        - SEEK_END : 파일의 마지막 위치
+
+7. 데이터 전처리 지시자  : [확인](./DAY09/Chapter19_Solution/Chapter19_01_app/main.c)
+    - #include : 파일 포함 지시자. 내장 해더파일은 <>, 사용자 헤더파일은 "" 사용.
+    - #define : 새로 정의하는 지시자. 자주 사용될 상수값을 정의할 때 많이 사용. 주로 대문자로 지정.
+    - #line : 라인 번호 재정의 및 파일명 재정의 지시자.
+    - #if, #ifdef, #else, #endif - 조건에 따라 컴파일하고자 할 때 사용하는 지시자
+    - #pragma : 컴파일러의 컴파일 방법을 세부적으로 제어할 때 사용.
+    - defined, #, ## 전처리 연산자
 
 
-6. 데이터 전처리, 분할 컴파일
+8. 분할 컴파일
+    - 여러 파일을 분할해서 프로그램 크기 줄이기, 팀 프로젝트(여러명이서 개발), 코드 재활용 등
+    - 전역변수 static : 외부에 공개하지 않는 내부용 정적 변수(private 생각하면 될 듯함.)
+    - 전역변수에 static은 사용하는것 비추.
+    - 외부 소스에서는 `extern`으로 공유 가능. : [확인](./DAY09/Chapter19_Solution/Chapter19_03_app/inputC.c)
+    - static은 메인함수가 있는 소스코드에서 선언
+    - extern은 어느 소스에 있는 전역변수든지 공유할 수 있음
+
+9. 헤더파일 필요성, 중복 문제 해결 : [확인](./DAY09/Chapter19_Solution/Chapter19_04_app/main.c)
+    - #ifndef~#define~#endif
 
 
-7. 토이 프로젝트 - (주소록 프로그램)
+## 10일차 (26/02/13)
+
+### 토이 프로젝트 - (주소록 프로그램)
+
 

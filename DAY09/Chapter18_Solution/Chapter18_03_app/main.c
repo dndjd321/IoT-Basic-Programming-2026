@@ -28,7 +28,7 @@ int main() {
 	ofp = fopen("./copy.txt", "w");	// w 쓰기 모드는 파일이 없으면 자동 생성
 
 	if (ifp == NULL) {
-		printf(u8"출력파일 생성 실패하였습니다.\n");
+		printf("출력파일 생성 실패하였습니다.\n");
 		exit(1);
 	}
 
@@ -42,11 +42,11 @@ int main() {
 		total = kor + eng + math;
 		avg = total / 3.0;
 
-		printf(u8"%s%5d%7.2lf\n", name, total, avg);	// console에 출력
+		printf("%s%5d%7.2lf\n", name, total, avg);	// console에 출력
 		fprintf(ofp, "%s%5d%7.2lf\n", name, total, avg);
 	}
 
-	printf(u8"파일 복사 완료.\n");
+	printf("파일 복사 완료.\n");
 	fclose(ifp);
 	fclose(ofp);
 
