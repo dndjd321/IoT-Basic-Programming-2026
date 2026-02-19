@@ -49,13 +49,24 @@
 
 ### Step5
 - 파일 저장 / 불러오기 ( 영구 저장 )
-- 지금까지 계속 프로그램 종료하면 데이터가 날라갔기 때문에 테스트 또는 데이터 영구 저장을 위해 위 작업 진행
+- 프로그램 실행 시 .txt파일 데이터 로드
+- 프로그램 종료 시 .txt파일 데이터 저장
+    ![alt text](image-23.png)
+    Step5 결과화면
 
 ### Step6
-- 정렬, 중복체크, 입력검증(전화번호, 이메일 등)
+- 정렬, 중복체크, | 입력 방지 작업
+    ![alt text](image-22.png)
+    Step6 결과화면
 
 ### Step7
 - 동적 배열, 대용량 저장 - 100개 이상 저장
+    ![alt text](image-24.png)
+    Step7 결과화면
 
 ### Step8
-- UI 개선
+- 분할 컴파일 및 UI 개선
+    - AddressBook.h, AddressBook.c, main.c로 분리. 분할컴파일
+    - 화면 clear 기능 추가
+    ![alt text](image-25.png)
+    Step8 결과화면
