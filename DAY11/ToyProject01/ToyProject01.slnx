@@ -4,7 +4,7 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="AddressBook_Step5.app/AddressBook_Step5.app.vcxproj" Id="8003855c-514e-4053-a60a-34a368e41ae4" />
-  <Project Path="AddressBook_Step6.app/AddressBook_Step6.app.vcxproj" />
-  <Project Path="AddressBook_Step7.app/AddressBook_Step7.app.vcxproj" />
-  <Project Path="AddressBook_Step8.app/AddressBook_Step8.app.vcxproj" />
+  <Project Path="AddressBook_Step6.app/AddressBook_Step6.app.vcxproj" Id="09e24776-66e2-4329-847b-9f84729b3f60" />
+  <Project Path="AddressBook_Step7.app/AddressBook_Step7.app.vcxproj" Id="531d91c6-cc95-44c0-b243-1572e381e53a" />
+  <Project Path="AddressBook_Step8.app/AddressBook_Step8.app.vcxproj" Id="33a70670-535d-4ea8-ba4b-5d4dd4592d17" />
 </Solution>
